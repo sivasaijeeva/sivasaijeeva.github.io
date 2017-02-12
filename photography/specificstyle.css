@@ -1,0 +1,74 @@
+.navbar-default {
+    background-color: #000;
+}
+
+.jssecnav {
+    margin-top: 50px;
+    height: 100px;
+}
+
+.jssecnav .jsnav >li>a {
+    padding: 0px;
+    margin: 0px 20px;
+}
+
+.jsbutton {
+    padding: 40px 20px;
+    background-color: #000;
+    border: 0;
+    outline: 0;
+}
+
+.jsbutton:active,
+.jsbutton.is-checked,
+.jsbutton:hover,
+.jsbutton:focus {
+    color: white;
+    background-color: #290b00;
+    transition: all 0.3s;
+}
+
+.jssphoto {
+    margin-top: 150px;
+}
+
+.element-item,
+.grid-sizer {
+    float: left;
+    width: 25%;
+}
+
+.element-item img {
+    max-width: 100%;
+}
+
+.photo {
+    opacity: 20;
+    filter: alpha(opacity=4000);
+    opacity: 0.3;
+    filter: alpha(opacity=40);
+}
+
+.photo:hover {
+    opacity: 100;
+    transition: opacity 0.4s;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    -o-transition: opacity 0.4s;
+}
+
+@media screen and (max-width: 70em) {
+    .jssecnav .jsnav >li>a {
+        margin: 0px 5px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 48em) {
+    .jssecnav {
+        display: none;
+    }
+    .jssphoto {
+        margin-top: 50px;
+    }
+}

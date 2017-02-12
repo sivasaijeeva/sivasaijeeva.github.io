@@ -1,0 +1,30 @@
+body { background: url(../images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; 
+  background-size: cover; height: auto;}
+
+.sd{background-color: rgba(0,0,0,0.8); margin-top: 80px;}
+
+.jsname{text-align: center; font-size: 60px; margin: 40px 0px;}
+
+.jspic{padding-top: 20px;}
+
+.mask {width: 150px; height: 150px; border-radius: 150px; -webkit-border-radius: 150px; -moz-border-radius: 150px;}
+
+.jspic img {display: block; margin: auto; margin-bottom: 20px; }
+
+.jsth{padding: 30px 130px; }
+
+.jsdes{text-indent: 90px; padding: 10px 40px; }
+
+.resume{text-align: center;}
+
+.resume a{text-decoration: none; color: firebrick;}
+
+.resume a:hover,.resume a:focus{text-decoration: none; color: #fff; transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+.resume li{list-style: none; font-size: 26px;}
+
+@media screen and (max-width: 62em) {.jsth{padding: 50px 50px;}}
+
+@media screen and (max-width: 28em) { body {font-size: 18px;} .jsname{font-size: 30px;}}

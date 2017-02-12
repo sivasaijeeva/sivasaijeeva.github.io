@@ -1,0 +1,27 @@
+@font-face{font-family:'elegant_luxmager';src:url('../fonts/elegantlux-mager-webfont.eot');src:url('../fonts/elegantlux-mager-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/elegantlux-mager-webfont.woff2') format('woff2'),url('../fonts/elegantlux-mager-webfont.woff') format('woff'),url('../fonts/elegantlux-mager-webfont.ttf') format('truetype');font-weight:normal;font-style:normal}
+.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#c0392b;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}
+
+body {font-family: 'elegant_luxmager', sans-serif; background-color: #000000; color: white; font-size: 24px;}
+
+.current {color: firebrick !important;}
+
+.navbar {border:0; background-color: rgba(0, 0, 0, 0.4);}
+
+.jsnav{width: 100%; text-align: center;}
+
+.jsnav>li{display: inline-block; float: none;}
+
+.navbar .jsnav > li > a {color: #FFF; font-size: 22px; letter-spacing: 2px; margin:0px 10px;}
+
+.navbar .jsnav > li > a:hover{color: firebrick; transition: all .3s ease-in-out;
+     -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
+.navbar .jsnav > .active > a, .navbar .jsnav > .active > a:hover, .navbar .jsnav > .active > a:focus 
+{color: firebrick !important; background-color: transparent;}
+
+@media screen and (max-width: 45em) {
+    .jsnav{width: auto;}
+    
+    .navbar .jsnav > li > a {font-size: 20px; margin:0px;}
+}
+@media screen and (max-width: 28em) {.navbar .jsnav > li > a {font-size: 10px; padding:5px;} }

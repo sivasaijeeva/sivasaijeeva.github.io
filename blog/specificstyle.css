@@ -1,0 +1,37 @@
+body { text-align: center;}
+
+.jsbentry{margin: 0px;}
+
+.blogn{ text-transform: uppercase; font-size: 100px; padding-top: 270px;}
+
+.blogsn{color: firebrick; padding-top:80px;}
+
+.soc{padding: 0px; font-size: 35px; list-style-type: none;}
+
+.soc li{display: inline-block; margin: 25px;}
+
+.cname{padding: 40px 0px; font-size: 40px;}
+
+.ctype{font-size:20px; color: #eeeeee; padding-bottom: 20px;}
+
+.ctent{padding: 30px 130px; font-size: 22px;}
+
+.cbutton{padding: 40px; 0px;}
+
+.cbutton>button{background-color: black;}
+
+@media screen and (max-width: 62em) {
+    body {font-size: 20px;}
+    
+    .blogn{ font-size: 60px;}
+     
+    .ctent{padding: 30px 0px; font-size: 18px;}
+}
+
+@media screen and (max-width: 28em) {
+    .blogn{font-size: 34px;} 
+    
+    .blogsn{font-size: 24px;}
+    
+    .cname{padding: 10px 0px; font-size: 20px;} 
+}
