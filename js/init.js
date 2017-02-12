@@ -1,6 +1,9 @@
 $(document).ready( function() {
+  
     
  var $grid = $('.grid').isotope({itemSelector: '.element-item', percentPosition: true, masonry: {columnWidth: '.grid-sizer'}});
+
+$grid.isotope('shuffle');
 
 $grid.imagesLoaded().progress( function() {$grid.isotope('layout');});
 
